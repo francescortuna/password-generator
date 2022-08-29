@@ -1,5 +1,14 @@
 // Assignment code here
-
+// Starts function to ask user for criteria and generate password that matches criteria
+function generatePassword() {
+  // Asks user how long password should be then prints choice in console
+  var passwordLength = prompt("Choose a length between 8 and 128 characters for the password.")
+  console.log("The password length is " + passwordLength + " characters.")
+  // If user does not select password length
+  if(!passwordLength) {
+    alert("Please choose length of password.")
+  }
+}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
