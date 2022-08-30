@@ -119,6 +119,7 @@ function generatePassword () {
   } else {
     console.log("Your password does not have special characters.")
   }
+  console.log("Your password is " + password)
 
   return password;
   } 
