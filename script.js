@@ -107,7 +107,7 @@ function generatePassword () {
   if(hasLower){
     console.log("Your password has lowercase letters.")
   } else {
-    console.log("Your password does not have uppercase letters.")
+    console.log("Your password does not have lowercase letters.")
   }
   if(hasNumbers){
     console.log("Your password has numbers.")
